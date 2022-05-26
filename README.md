@@ -1,3 +1,3 @@
 # Lead-Quiz
 
-### Check out: https://SergeyGramakov.github.io/Pica-Pica-Art/
+### Check out: https://SergeyGramakov.github.io/Lead-Quiz/

@@ -1,0 +1,322 @@
+
+/*---------------------- АДАПТИВ ----------------------*/
+@media screen and (max-width: 1102px) and (min-width: 800px) {
+    #main-page .main-page__outer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-page__inner {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .main-page__inner h1,
+    .main-page__inner p {
+        text-align: center;
+    }
+
+    .main-page__inner .main-page__btn-brick {
+        margin: 0 auto;
+        text-align: center;
+        width: 60rem;
+    }
+
+    .main-page__inner .main__options div,
+    .main-page__inner .main__options-2 div {
+        margin: 0 auto;
+        justify-content: center ;
+    }
+
+    .main-page__bonuses-outer .main-page__bonuses {
+        margin-top: 3rem;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+
+    .main-page__bonuses-outer .main-page__bonuses #last {
+        margin: 3rem auto 0;
+    }
+
+
+    .main__options-2 div div:first-of-type {
+        padding-right: 2rem;
+    }
+
+    .form-discount__figure-1,
+    .form-discount__figure-2,
+    .form-discount__figure-3 {
+        width: 50rem;
+        height: 55rem;
+    }
+
+    .form-discount__figure-1 svg,
+    .form-discount__figure-2 svg,
+    .form-discount__figure-3 svg {
+        position: relative;
+        top: 6rem;
+        left: 7rem;
+    }
+
+    .w-50 {
+        width: 70% !important;
+    }
+
+}
+
+@media screen and (max-width: 975px) {
+    #main-page .main-page__outer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-page__inner {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .main-page__inner h1,
+    .main-page__inner p {
+        text-align: center;
+    }
+
+    .main-page__inner .main-page__btn-brick {
+        margin: 0 auto;
+        text-align: center;
+        width: 40rem;
+    }
+
+    .main-page__inner .main__options div,
+    .main-page__inner .main__options-2 div {
+        margin: 0 auto;
+        justify-content: center ;
+    }
+
+    .main-page__bonuses-outer {
+        margin-top: 3rem;
+        justify-content: start !important;
+    }
+
+    .main-page__bonuses {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center !important;
+    }
+
+    .main-page__bonuses-item {
+        margin-top: 0.5rem;
+    }
+
+    #bonuses-page h2 {
+        text-align: center;
+    }
+
+    #bonuses-page .main-bonuses__page-2 {
+        flex-direction: column !important;
+        align-content: center;
+    }
+
+    .main-bonuses__item {
+        margin-top: 1rem;
+    }
+
+    #quiz {
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    .w-50 {
+        margin: 0 auto;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .main__options-2 div div:first-of-type {
+        padding-right: 2rem;
+    }
+
+    form div,
+    form div input {
+        margin: 0 auto;
+    }
+
+    form div p {
+        padding-top: 1rem;
+    }
+
+    input {
+        width: 80%;
+        padding: 1rem 2.4rem;
+    }
+
+    .form__btn-brick {
+        width: 80%;
+    }
+
+    #step-3 .form__btn-brick {
+        margin: 2.4rem auto;
+        width: 80%;
+    }
+
+    .figures {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .footer__info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .figures {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
+    .main-page__bonuses-item {
+        margin-top: 0.5rem;
+    }
+
+    #quiz {
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    .w-50 {
+        margin: 0 auto;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .main__options-2 div div:first-of-type {
+        padding-right: 2rem;
+    }
+
+    form div,
+    form div input {
+        margin: 0 auto;
+    }
+
+    form div p {
+        padding-top: 1rem;
+    }
+
+    input {
+        width: 80%;
+        padding: 1rem 2.4rem;
+    }
+
+    .form__btn-brick {
+        width: 80%;
+    }
+
+    .figures {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .footer__info {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 520px) and (min-width: 320px) {
+    header  div {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    header .header__logo {
+        font-size: 5.5rem;
+    }
+
+    header .header__text {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    header .phone {
+        font-size: 4rem;
+    }
+
+    header .phone {
+        margin-top: 0.5rem;
+    }
+
+    .header__spacing {
+        margin-bottom: 4rem;
+    }
+
+    #step-2 .form__text-container {
+        justify-content: center !important;
+    }
+
+    .main-page__inner .main-page__btn-brick {
+        margin: 0 auto;
+        text-align: center;
+        width: 30rem;
+    }
+
+    .main-page__inner h1 {
+        font-size: 2.4rem;
+        margin-top: 0;
+    }
+
+    .main-page__inner > p {
+        margin-top: 1.5rem;
+        font-size: 18px;
+    }
+
+    .main-page__btn-brick {
+        margin-top: 0;
+    }
+
+    .bonuses {
+        font-size: 18px;
+    }
+
+    .main__options,
+    .main__options-2 {
+        font-size: 16px;
+    }
+
+    .main__options-2 div div:first-of-type {
+       padding-right: 1.4rem;
+    }
+
+    #bonuses-page .main-bonuses__page-2 {
+        margin: 1rem auto;
+    }
+
+    .main-bonuses__item {
+        margin: 0.5rem auto;
+    }
+
+    #bonuses-page h2 {
+        font-size: 4rem;
+    }
+
+    #bonuses-page h2 .w-50 {
+        width: 100%;
+    }
+
+    #quiz h2 {
+        font-size: 4rem;
+    }
+
+    footer .phone {
+        font-size: 4rem;
+    }
+
+}

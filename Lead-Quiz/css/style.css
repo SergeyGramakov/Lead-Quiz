@@ -1,0 +1,667 @@
+/*---------------------- УНИВЕРСАЛЬНЫЕ ----------------------*/
+html, body, div, span, h1, h2, h3, h4, h5, h6,
+p, a, img, article, aside, details,
+footer, header, section, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    color: #FFF;
+    background-color: #20293a;
+}
+
+main {
+    font-family: "Oxygen", sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1270px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header__spacing {
+    margin-bottom: 7rem;
+}
+
+.footer__spacing {
+    margin-top: 7rem;
+}
+
+h2 {
+    font-size: 5.2rem;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.phone {
+    color: #F4F7FE;
+    font-size: 3.3rem;
+}
+
+.phone:hover {
+    color: #F4F7FE;
+    font-size: 3.3rem;
+    text-decoration: underline;
+}
+
+.text-color {
+    color: #2CCD65;
+}
+
+.hidden {
+    display: none;
+}
+
+/*---------------------- ХЕДЕР ----------------------*/
+.header__logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    transition-property: text-shadow;
+}
+
+.header__logo:hover {
+    text-shadow: 0 0 20px #fff;
+}
+
+.header__text {
+    font-size: 1.8rem;
+    color: #5C687E;
+}
+
+.header__text {
+    font-size: 1.8rem;
+    color: #5C687E;
+}
+
+/*---------------------- МЭЙН ----------------------*/
+/*---------------------- 1 СТР ----------------------*/
+main h1 {
+    font-size: 5.2rem;
+}
+
+main h1 + p {
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+.main-page__btn-brick {
+    font-size: 2rem;
+    width: 36rem;
+    text-align: center;
+    padding: 1rem 4rem;
+    background-color: #2CCD65;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+.main__btn-brick {
+        font-size: 2rem;
+        width: 30rem;
+        text-align: center;
+        padding: 0.8rem 4rem;
+        background-color: #2CCD65;
+        margin-top: 2.4rem;
+}
+
+.main__btn-brick:hover {
+    transition-duration: 0.5s;
+    background-color: #00BC43;
+}
+
+.main__options {
+    margin-top: 3.5rem;
+}
+
+.main-page__bonuses p {
+    font-size: 1.6rem;
+}
+
+.main-page__bonuses h3 {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.main-page__bonuses-discount {
+    width: 30rem;
+    height: 34rem;
+    padding: 4rem 2.8rem 2.8rem;
+    background-color: #00AB8C;
+    transition-duration: 0.5s;
+}
+
+.main-page__bonuses-discount:hover {
+    background-color: #02c7a4;
+}
+
+.main-page__bonuses-money {
+    width: 30rem;
+    height: 34rem;
+    padding: 4rem 2.8rem 2.8rem;
+    background-color: #003BAB;
+    transition-duration: 0.5s;
+}
+
+.main-page__bonuses-money:hover {
+    background-color: #034ed0;
+}
+
+.main-page__bonuses-clients {
+    width: 30rem;
+    height: 34rem;
+    padding: 4rem 2.8rem 2.8rem;
+    background-color: #E3B100;
+    transition-duration: 0.5s;
+}
+
+.main-page__bonuses-clients:hover {
+    background-color: #f8bf0c;
+}
+
+.main-page__bonuses-clients h3 {
+    font-size: 2rem;
+}
+
+.main__bonuses-all {
+    width: 30rem;
+    font-size: 2rem;
+    padding: 4rem 2.8rem 2.8rem;
+}
+
+.main__bonuses-all .btn-container__circle {
+    cursor: pointer;
+    color: #2CCD65;
+    position: relative;
+    top: 0.2rem;
+    left: 0.9rem;
+}
+
+.main__bonuses-all .btn-container__arrow {
+    position: relative;
+    left: -3.6rem;
+}
+
+.main-bonuses__btn-container {
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.main-bonuses__btn-container:hover {
+    transform: translateX(1.5rem);
+}
+
+.main-bonuses__btn-container:hover .circle {
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.main-bonuses__btn-container:hover .btn-container__arrow path {
+    fill: #2CCD65;
+}
+
+.main__bonuses_info {
+    position: relative;
+    top: 2.5rem;
+}
+
+.main__bonuses_info-money {
+    position: relative;
+    top: 2.6rem;
+}
+
+.button__discount {
+    position: relative;
+    opacity: 0;
+    top: 3rem;
+    color: #00AB8C;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+    transition-duration: 1s;
+}
+
+.button__money {
+    position: relative;
+    opacity: 0;
+    top: 3rem;
+    color: #003BAB;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+    transition-duration: 1s;
+}
+
+.button__clients {
+    position: relative;
+    opacity: 0;
+    top: 2.7rem;
+    color: #E3B100;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+    transition-duration: 1s;
+}
+
+.main-page__bonuses-money:hover .button__money,
+.main-page__bonuses-clients:hover .button__clients,
+.main-page__bonuses-discount:hover .button__discount {
+    opacity: 1;
+    transform: translateY(-0.2rem);
+    margin-top: 0.5rem;
+}
+
+/*---------------------- 2 СТР ----------------------*/
+.vh-75 {
+    height: 75vh !important;
+}
+
+.main-bonuses__page-2 > div {
+    margin-right: 2rem;
+}
+
+.main-bonuses__discount-page-2 {
+    width: 29rem;
+    height: 27rem;
+    padding: 3.6rem 2.8rem 2.5rem;
+    background-color: #00AB8C;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__discount-page-2:hover {
+    background-color: #02c7a4;
+}
+
+.main-bonuses__discount-page-2 div > h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-bonuses__discount-page-2 div > p {
+    font-size: 1.4rem;
+}
+
+.main-bonuses__money-page-2 {
+    width: 29rem;
+    height: 27rem;
+    padding: 3.6rem 2.8rem 2.5rem;
+    background-color: #003BAB;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__money-page-2:hover {
+    background-color: #034ed0;
+}
+
+.main-bonuses__money-page-2 div > h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-bonuses__money-page-2 div > p {
+    font-size: 1.4rem;
+}
+
+.main-bonuses__btn-container-page-2 .clients {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.main-bonuses__clients-page-2 div > p {
+    font-size: 1.4rem;
+}
+
+.main-bonuses__clients-page-2 {
+    width: 29rem;
+    height: 27rem;
+    padding: 3.6rem 2.8rem 2.5rem;
+    background-color: #E3B100;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__clients-page-2:hover {
+    background-color: #f8bf0c;
+}
+
+.main-bonuses__clients-page-2 div > h3 {
+    font-size: 1.6rem;
+}
+
+.main-bonuses__clients-page-2 div > p {
+    font-size: 1.4rem;
+}
+
+.main-bonuses__info-page-2 {
+    position: relative;
+    top: 2.5rem;
+}
+
+.main-bonuses__info-money-page-2 {
+    position: relative;
+    top: 2.6rem;
+}
+
+.button__discount-page-2 {
+    position: relative;
+    opacity: 0;
+    top: 2.5rem;
+    color: #00AB8C;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+}
+
+.button__money-page-2 {
+    position: relative;
+    opacity: 0;
+    top: 2.5rem;
+    color: #003BAB;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+}
+
+.button__clients-page-2 {
+    position: relative;
+    opacity: 0;
+    top: 2.5rem;
+    color: #E3B100;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1.5rem auto 0.2rem;
+}
+
+.main-bonuses__discount-page-2:hover .main-bonuses__svg-page-2 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__discount-page-2:hover .main-bonuses__btn-container-page-2 {
+    transition-duration: 1.5s;
+    transform: translateY(-3.7rem);
+}
+
+.main-bonuses__discount-page-2 .circle-page-2 {
+    opacity: 0;
+    position: relative;
+    bottom: -2.3rem;
+    left: 17rem;
+    border-radius: 50%;
+    transition-duration: 0.1s !important;
+    background-color: #fff;
+}
+
+.main-bonuses__discount-page-2 .arrow-page-2 {
+    opacity: 0;
+    position: relative;
+    left: 13.5rem;
+    bottom: -2.3rem;
+    transition-duration: 0.1s !important;
+}
+
+.main-bonuses__discount-page-2:hover .arrow-page-2 path {
+    fill: #00AB8C;
+}
+
+.main-bonuses__discount-page-2:hover .arrow-page-2,
+.main-bonuses__discount-page-2:hover .circle-page-2 {
+    opacity: 1;
+    transition-duration: 1.5s;
+    margin-top: 2rem;
+}
+
+.main-bonuses__clients-page-2:hover .main-bonuses__svg-page-2 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__clients-page-2:hover .main-bonuses__btn-container-page-2 {
+    transition-duration: 1.5s;
+    transform: translateY(-3.7rem);
+}
+
+.main-bonuses__clients-page-2 .circle-page-2 {
+    opacity: 0;
+    position: relative;
+    bottom: -2.3rem;
+    left: 17rem;
+    border-radius: 50%;
+    transition-duration: 0.1s !important;
+    background-color: #fff;
+}
+
+.main-bonuses__clients-page-2 .arrow-page-2 {
+    opacity: 0;
+    position: relative;
+    left: 13.5rem;
+    bottom: -2.3rem;
+    transition-duration: 0.1s !important;
+}
+
+.main-bonuses__clients-page-2:hover .arrow-page-2 path {
+    fill: #E3B100;
+}
+
+.main-bonuses__clients-page-2:hover .arrow-page-2,
+.main-bonuses__clients-page-2:hover .circle-page-2 {
+    opacity: 1;
+    transition-duration: 4.5s;
+    margin-top: 1rem;
+}
+
+
+.main-bonuses__money-page-2:hover .main-bonuses__svg-page-2 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.main-bonuses__money-page-2:hover .main-bonuses__btn-container-page-2 {
+    transition-duration: 1.5s;
+    transform: translateY(-3.7rem);
+}
+
+.main-bonuses__money-page-2 .circle-page-2 {
+    opacity: 0;
+    position: relative;
+    bottom: -2.3rem;
+    left: 17rem;
+    border-radius: 50%;
+    transition-duration: 0.1s !important;
+    background-color: #fff;
+}
+
+.main-bonuses__money-page-2 .arrow-page-2 {
+    opacity: 0;
+    position: relative;
+    left: 13.5rem;
+    bottom: -2.3rem;
+    transition-duration: 0.1s !important;
+}
+
+.main-bonuses__money-page-2:hover .arrow-page-2 path {
+    fill: #003BAB;
+}
+
+.main-bonuses__money-page-2:hover .arrow-page-2,
+.main-bonuses__money-page-2:hover .circle-page-2 {
+    opacity: 1;
+    transition-duration: 1.5s;
+    margin-top: 2rem;
+}
+
+/*------------------- РЕГИСТРАЦИЯ -------------------*/
+input {
+    width: 30rem;
+    padding: 1rem 2.4rem;
+}
+
+input:focus {
+    font-weight: 600;
+}
+
+input {
+    font-family: "Rubik", serif;
+}
+
+.form__btn-brick {
+    font-size: 2rem;
+    width: 30rem;
+    text-align: center;
+    padding: 0.8rem 5rem;
+    background-color: #2CCD65;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+.form__btn-brick:hover {
+    transition-duration: 0.5s;
+    background-color: #0a9a40;
+}
+
+
+.disabled {
+    opacity: 40%;
+}
+
+/*---------------------- ШАГ 1 ----------------------*/
+.form-discount__text-1_step-1 {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.form-discount__text-2_step-1 {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.form-discount__info-1_step-1,
+.form-discount__info-2_step-1,
+.form-discount__info-3_step-1 {
+    color: #A0A0A0;
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.form-discount__figure-1 {
+    width: 60rem;
+    height: 65rem;
+    background-color: #00AB8C;
+}
+
+.form-discount__figure-2 {
+    width: 60rem;
+    height: 65rem;
+    background-color: #003BAB;
+}
+
+.form-discount__figure-3 {
+    width: 60rem;
+    height: 65rem;
+    background-color: #E3B100;
+}
+
+.form-discount__figure-1 svg,
+.form-discount__figure-2 svg,
+.form-discount__figure-3 svg {
+    position: relative;
+    top: 10rem;
+    left: 15rem;
+}
+
+/*---------------------- ШАГ 2 ----------------------*/
+.form-discount__text-1_step-2 {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+.form-discount__info-1_step-2 {
+    color: #A0A0A0;
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.form-discount__text-1_step-2 a:hover {
+    color: #A0A0A0;
+}
+
+.form-discount__info-1_step-2 a:hover {
+    color: #FFF;
+}
+
+.step-2__input-code {
+    width: 20rem;
+    padding: 1rem 2.4rem;
+    margin-left: 0 !important;
+}
+
+.form__text-resend {
+    font-size: 1.4rem;
+    width: 2rem;
+    word-wrap: break-word;
+    text-decoration: underline;
+}
+
+/*---------------------- ШАГ 3 ----------------------*/
+.form-discount__text-1_step-3 {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+#step-3 .form__btn-brick {
+    width: 40rem;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+}
+
+/*---------------------- ФУТЕР ----------------------*/
+footer {
+    padding-bottom: 6rem;
+    flex: 0 0 auto;
+}
+
+.footer__info {
+    color: #83839E;
+    font-size: 1.2rem;
+    width: 35%;
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url("../fonts/Oxygen-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
